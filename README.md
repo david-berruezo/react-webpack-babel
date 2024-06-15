@@ -1,6 +1,6 @@
 # React Configuration | Webpack + Babel
 
-#### If you don't want to make create-react-app or build vite or others builds you can setup react + webpack + babel to do the same
+#### If you don't want to make create-react-app or build vite or others builds you can setup react + webpack + babel to has the total control
 
 ### step 01
 
