@@ -1,6 +1,6 @@
 # React Configuration | Webpack + Babel
 
-### If you don't want to make create-react-app or build vite or others builds you can setup react + webpack + babel to do the same
+#### If you don't want to make create-react-app or build vite or others builds you can setup react + webpack + babel to do the same
 
 ### step 01
 
@@ -22,7 +22,7 @@ npm install -D babel-loader css-loader html-webpack-plugin style-loader webpack 
 npm install @babel/core @babel/preset-env @babel/preset-react
 ```
 
-#### You will isntall babel transpiling , preset-env to transpiling ecnascript , preset-react transpiling react
+#### You will install babel transpiling , preset-env to transpiling ecmascript , preset-react transpiling react
 
 
 
@@ -31,7 +31,7 @@ npm install @babel/core @babel/preset-env @babel/preset-react
 ```console
 npm install react react-dom
 ```
-#### You will isntall react javascript library and react dom for jsx
+#### You will install react javascript library and react dom for jsx
 
 ### step 04 | Configuration files
 #### create .babelrc into root to config babel and presets
@@ -44,5 +44,10 @@ npm install react react-dom
 #### Inside scripts key write: "start": "webpack-dev-server --mode development --open --hot",
 #### Inside scripts key write: "build": "webpack"
 #### You will build application and you start the webpack server
+
+```console
+npm run build
+npm run start
+```
 
 ### Webserver with React start http://localhost:9000
